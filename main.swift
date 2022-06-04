@@ -93,7 +93,7 @@ import Foundation
 
 // # ESTRUTURA CONDICIONAL
 //A nota final de um estudante é calculada a partir de três notas atribuídas, respectivamente, a um trabalho de laboratório, a uma avaliação semestral e a um exame final. A média das três notas mencionadas obedece aos pesos a seguir:
-//Faça um programa que tem três constantes que representa as três notas, calcule e mostre a média ponderada e o conceito que segue a tabela.
+//1-Faça um programa que tem três constantes que representa as três notas, calcule e mostre a média ponderada e o conceito que segue a tabela.
 
 
  print("")
@@ -125,7 +125,7 @@ import Foundation
  }
  print("")
  print("Exercício 2")
-//Escreva um programa que tem duas constantes que representam dois números e o programa mostrar o maior deles.
+//2-Escreva um programa que tem duas constantes que representam dois números e o programa mostrar o maior deles.
 
  let num1 = 9
  let num2 = 18
@@ -138,7 +138,7 @@ import Foundation
  print("")
  print("Exercício 3")
 
-//Faça um programa que tem três constantes que representam números, o programa deve mostrar os números em ordem crescente.
+//3-Faça um programa que tem três constantes que representam números, o programa deve mostrar os números em ordem crescente.
 
  let numb1 = 2
  let numb2 = 6
@@ -150,7 +150,17 @@ import Foundation
  numb2 > numb3
  -- numb2 #2
 
+///4-Faça um programa que recebe um número inteiro e verifica se o número é ímpar ou par.
+ print("")
+ print("Exercício 4")
 
+ let numeroo: Double = 4
+
+ if numeroo.isMutiple(of: 2){
+   print("O número \(numeroo) é par")
+ }else{
+   print("O número \(numeroo) é ímpar")
+ }
 
 
 //Arrays
